@@ -3,7 +3,7 @@
 let a = 3;
 let b = 5;
 let c;
-// alert( "description of alerted_value: " + alerted_value );
+
 let output = `
     let a = 3;
     let b = 5;
@@ -26,9 +26,7 @@ let output = `
     (!a && !c): ${!a && !c}
     (!a || !c): ${!a || !c}
     
-    <lable>
-    <input type="checkbox">prevent this page from creating additional diagolgs.
-    </lable>
+  prevent this page from creating additional diagolgs.
     
     
     `;
