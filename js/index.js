@@ -26,7 +26,9 @@ let output = `
     (!a && !c): ${!a && !c}
     (!a || !c): ${!a || !c}
     
-    echo <input type="checkbox">prevent this page from creating additional diagolgs.</input>;
+    <lable>
+    <input type="checkbox">prevent this page from creating additional diagolgs.
+    </lable>
     
     
     `;
