@@ -10,26 +10,51 @@ let output = `
     let c;
     --------------
     a + b = ${a + b};
+    a - b = ${a - b};
+    a * b = ${a * b};
+    a / b = ${a / b};
+    a % b = ${a % b};
+    a += b = ${a += b};
+    a -= b = ${a -= b};
+    a *= b = ${a *= b};
+    a /= b = ${a /= b};
+    a %= b = ${a %= b};
+    a == b = ${a == b};
+    a != b = ${a != b};
+    a > b = ${a > b};
+    a < b = ${a < b};
+    !a && !c = ${!a && !c};
+    !a || !c = ${!a || !c};
+
     
     
     `;
 alert(output);
 
-/*
-a + b
-a - b
-a * b
-a / b
-a % b
-a += b
-a -= b
-a *= b
-a /= b
-a %= b
-a == b
-a != b
-a > b
-a < b
-!a && !c 
-!a || !c 
-*/
+
+// a + b
+// a - b
+// a * b
+// a / b
+// a % b
+// a += b
+// a -= b
+// a *= b
+// a /= b
+// a %= b
+// a == b
+// a != b
+// a > b
+// a < b
+// !a && !c 
+// !a || !c 
+
+
+// Task 2
+
+let first_name = "Nitiksha";
+let last_name = "Shah";
+let email = "shah0375@alogonquinlive.com";
+let output1 = "My name is " + first_name + " " + last_name + ". You can contact me at " + email + ".";
+alert(output1);
+
