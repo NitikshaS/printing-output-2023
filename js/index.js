@@ -26,14 +26,9 @@ let output = `
     (!a && !c): ${!a && !c}
     (!a || !c): ${!a || !c}
     
-
+ prevent this page from creating additional diagolgs.
     
-    
-    `
-  <lable>
-  <input type="checkbox"> prevent this page from creating additional diagolgs.
-  </lable>
-;
+    `;
 alert(output);
 
 
