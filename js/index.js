@@ -9,24 +9,24 @@ let output = `
     let b = 5;
     let c;
     --------------
-    a + b = ${a + b};
-    a - b = ${a - b};
-    a * b = ${a * b};
-    a / b = ${a / b};
-    a % b = ${a % b};
-    (a += b): ${a += b};
-    (a -= b): ${a -= b};
-    (a *= b): ${a *= b};
-    (a /= b): ${a /= b};
-    (a %= b): ${a %= b};
-    (a == b): ${a == b};
-    (a != b): ${a != b};
-    (a > b): ${a > b};
-    (a < b): ${a < b};
-    (!a && !c): ${!a && !c};
-    (!a || !c): ${!a || !c};
+    a + b = ${a + b}
+    a - b = ${a - b}
+    a * b = ${a * b}
+    a / b = ${a / b}
+    a % b = ${a % b}
+    (a += b): ${a += b}
+    (a -= b): ${a -= b}
+    (a *= b): ${a *= b}
+    (a /= b): ${a /= b}
+    (a %= b): ${a %= b}
+    (a == b): ${a == b}
+    (a != b): ${a != b}
+    (a > b): ${a > b}
+    (a < b): ${a < b}
+    (!a && !c): ${!a && !c}
+    (!a || !c): ${!a || !c}
     
-    <input type="checkbox">prevent this page from creating additional diagolgs.</input>
+    echo <input type="checkbox">prevent this page from creating additional diagolgs.</input>;
     
     
     `;
