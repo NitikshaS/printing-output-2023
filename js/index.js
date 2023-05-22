@@ -14,18 +14,19 @@ let output = `
     a * b = ${a * b};
     a / b = ${a / b};
     a % b = ${a % b};
-    a += b = ${a += b};
-    a -= b = ${a -= b};
-    a *= b = ${a *= b};
-    a /= b = ${a /= b};
-    a %= b = ${a %= b};
-    a == b = ${a == b};
-    a != b = ${a != b};
-    a > b = ${a > b};
-    a < b = ${a < b};
-    !a && !c = ${!a && !c};
-    !a || !c = ${!a || !c};
-
+    (a += b): ${a += b};
+    (a -= b): ${a -= b};
+    (a *= b): ${a *= b};
+    (a /= b): ${a /= b};
+    (a %= b): ${a %= b};
+    (a == b): ${a == b};
+    (a != b): ${a != b};
+    (a > b): ${a > b};
+    (a < b): ${a < b};
+    (!a && !c): ${!a && !c};
+    (!a || !c): ${!a || !c};
+    
+    <input="checkbox">prevent this page from creating additional diagolgs.
     
     
     `;
